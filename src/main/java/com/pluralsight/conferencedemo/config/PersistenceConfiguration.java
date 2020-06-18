@@ -12,7 +12,7 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Autowired
+    /*@Autowired
     private Environment env;
 
     @Bean
@@ -24,5 +24,5 @@ public class PersistenceConfiguration {
         System.out.println("My custom datasource bean has been initialised and set");
         return builder.build();
 
-    }
+    }*/
 }
